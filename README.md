@@ -3,6 +3,10 @@
 This project lets you check if your development environment is ready for an
 Ethereum hackathon.
 
+This project and its instructions are specific to Node.js-based Ethereum
+development. If you are in doubt about using Node.js in the hackathon we
+recommend you follow them anyway, as most Ethereum libraries and tools use Node.
+
 ## How do you use it?
 
 To make sure your development environment is ready, you need to follow copy and
