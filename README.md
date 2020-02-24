@@ -13,7 +13,7 @@ To make sure your development environment is ready, you need to copy and paste
 these commands in a terminal. 
 
 ```bash
-git clone https://github.com/alcuadrado/ethereum-hackathon-setup-check.git
+git clone https://github.com/nomiclabs/ethereum-hackathon-setup-checker.git
 cd ethereum-hackathon-setup-check
 npm install
 ```

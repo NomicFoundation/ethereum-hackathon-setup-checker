@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alcuadrado/ethereum-hackathon-setup-check.git"
+    "url": "git+https://github.com/nomiclabs/ethereum-hackathon-setup-checker.git"
   },
   "keywords": [
     "ethereum",
@@ -20,9 +20,9 @@
   "author": "Patricio Palladino <patricio@nomiclabs.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alcuadrado/ethereum-hackathon-setup-check/issues"
+    "url": "https://github.com/nomiclabs/ethereum-hackathon-setup-checker/issues"
   },
-  "homepage": "https://github.com/alcuadrado/ethereum-hackathon-setup-check#readme",
+  "homepage": "https://github.com/nomiclabs/ethereum-hackathon-setup-checker",
   "dependencies": {
     "chalk": "^3.0.0",
     "check-engines": "^1.5.0",
