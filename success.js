@@ -14,7 +14,7 @@ checkEngines(err => {
       chalk.cyan(
         `
 Please upgrade your Node.js installation or reinstall it with a newer version and restart this terminal.
-To learn more, go to https://github.com/alcuadrado/ethereum-hackathon-setup-check
+To learn how to do it go to https://github.com/nomiclabs/ethereum-hackathon-setup-checker
 `
       )
     );
