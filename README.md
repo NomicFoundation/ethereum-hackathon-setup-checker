@@ -14,7 +14,7 @@ these commands in a terminal.
 
 ```bash
 git clone https://github.com/nomiclabs/ethereum-hackathon-setup-checker.git
-cd ethereum-hackathon-setup-check
+cd ethereum-hackathon-setup-checker
 npm install
 ```
 
