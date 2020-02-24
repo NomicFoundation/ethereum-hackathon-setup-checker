@@ -1,0 +1,31 @@
+{
+  "name": "ethereum-hackathon-setup-check",
+  "version": "0.0.1",
+  "private": true,
+  "description": "This project let you check if your development environment is ready for an Ethereum hackaton",
+  "scripts": {
+    "postinstall": "node success.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcuadrado/ethereum-hackathon-setup-check.git"
+  },
+  "keywords": [
+    "ethereum",
+    "hackathon"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "Patricio Palladino <patricio@nomiclabs.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alcuadrado/ethereum-hackathon-setup-check/issues"
+  },
+  "homepage": "https://github.com/alcuadrado/ethereum-hackathon-setup-check#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "check-engines": "^1.5.0",
+    "keccak": "2.1.0"
+  }
+}
