@@ -21,8 +21,8 @@ npm install
 If the installation failed, your environment is not ready and you need to follow
 the instructions from the next section.
 
-If the installation went well, and you should see a confirmation message, it
-means that your development environment is ready for the hackathon.
+If the installation went well, you should see a confirmation message, and your
+development environment is ready for the hackathon.
 
 ## Setting up your development environment
 
