@@ -26,6 +26,6 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "check-engines": "^1.5.0",
-    "keccak": "2.1.0"
+    "sha3": "1.2.6"
   }
 }
