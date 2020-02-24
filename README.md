@@ -9,8 +9,8 @@ recommend you follow them anyway, as most Ethereum libraries and tools use Node.
 
 ## How do you use it?
 
-To make sure your development environment is ready, you need to follow copy and
-paste these commands in a terminal. 
+To make sure your development environment is ready, you need to copy and paste 
+these commands in a terminal. 
 
 ```bash
 git clone https://github.com/alcuadrado/ethereum-hackathon-setup-check.git
