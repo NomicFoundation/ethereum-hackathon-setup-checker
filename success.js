@@ -60,7 +60,7 @@ To learn more, go to https://github.com/alcuadrado/ethereum-hackathon-setup-chec
 
 
                             You are all set!
-                             Happy hacking!
+                   Nomic Labs wishes you happy hacking!
 `
   ))
 });
