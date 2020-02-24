@@ -18,11 +18,11 @@ cd ethereum-hackathon-setup-check
 npm install
 ```
 
-If the installation failed, your environment is not ready and you need to follow
+If any of them failed, your environment is not ready and you need to follow
 the instructions from the next section.
 
-If the installation went well, you should see a confirmation message, and your
-development environment is ready for the hackathon.
+If they went well, you should see a confirmation message, and your development 
+environment is ready for the hackathon.
 
 ## Setting up your development environment
 
