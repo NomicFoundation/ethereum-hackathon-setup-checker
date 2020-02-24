@@ -1,19 +1,24 @@
-# Ethreum Hackathon Setup Check
+# Ethereum Hackathon Development Environment Checker
 
 This project lets you check if your development environment is ready for an
 Ethereum hackathon.
 
 ## How do you use it?
 
-You just need to clone this repository and install it. If your setup is ready,
-you'll see a confirmation message. If the installation fails, follow the
-instructions from the next section.
+To make sure your development environment is ready, you need to follow copy and
+paste these commands in a terminal. 
 
 ```bash
 git clone https://github.com/alcuadrado/ethereum-hackathon-setup-check.git
 cd ethereum-hackathon-setup-check
 npm install
 ```
+
+If the installation failed, your environment is not ready and you need to follow
+the instructions from the next section.
+
+If the installation went well, and you should see a confirmation message, it
+means that your development environment is ready for the hackathon.
 
 ## Setting up your development environment
 
@@ -28,9 +33,11 @@ they aren't necessary.
 This guide uses the official Node.js PPA, so we can choose the version of
 Node.js we want.
 
+Copy and paste these commands in a terminal:
+
 ```bash
 sudo apt update
-sudo apt install curl
+sudo apt install curl git
 sudo apt install build-essential # We need this to build native dependencies
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install nodejs
@@ -38,7 +45,13 @@ sudo apt install nodejs
 
 ### MacOS
 
-This guide uses [Node Version Manager (nvm)](http://github.com/creationix/nvm).
+Before following this guide, make sure you have `git` installed. Otherwise, 
+follow [these instructions](https://www.atlassian.com/git/tutorials/install-git).
+
+There are multiple ways of installing Node.js in MacOs, this guide uses 
+[Node Version Manager (nvm)](http://github.com/creationix/nvm).
+
+Copy and paste these commands in a terminal:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.2/install.sh | bash
@@ -58,10 +71,14 @@ xcode-select --install
 
 This guide requires some manual installations. Please follow them.
 
-1. Install Node.js 10.x by going to [its download page](https://nodejs.org/dist/latest-v10.x), downloading `node-v10.XX.XX-x64.msi`, and running it.
-2. [Open your terminal as Administrator](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/) and run the following command: `npm install --global --production windows-build-tools`. It will take several minutes and may download a few GB of data.
+1. If you don't have `git` installed, please [download and install it](https://git-scm.com/download/win).
+2. Install Node.js 10.x by going to [its download page](https://nodejs.org/dist/latest-v10.x), downloading `node-v10.XX.XX-x64.msi`, and running it.
+3. [Open your terminal as Administrator](https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/) and run the following command: `npm install --global --production windows-build-tools`. It will take several minutes and may download a few GB of data.
 
 ## Upgrading your version of Node.js
+
+If your version of Node.js is too old, this project will let you know during its
+installation. If this happens, follow these instructions.
 
 ### Linux
 
